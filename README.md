@@ -32,7 +32,7 @@
   <img src="https://github.com/yanicen1/multiaxial-fatigue-modified-model-Sines-/blob/master/Fig.0.png" width="500" title="hover text">
 </p>
 <p align = 'center'>Figure 1. Comparison of model prediction with experimental results.</p>
-
+<br>
 <p>[1] A.S. Iankin et alii. Influence of static mean stresses on the fatigue behavior of 2024 aluminum alloy under multiaxial loading // Frattura ed Integrità Strutturale, 51 (2020) 151-163; https://doi.org/10.3221/IGF-ESIS.51.12</p>
 <br>
 <p>If you have questions, please feel free to contact me: 
