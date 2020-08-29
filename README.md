@@ -1,8 +1,10 @@
 # Extension of the Sines method (Sines++)
 
+<p>In materials science, fatigue is the weakening of a material caused by cyclic loading that results in progressive and localized structural damage and the growth of cracks. Once a fatigue crack has initiated, each loading cycle will grow the crack a small amount, typically producing striations on some parts of the fracture surface. The crack will continue to grow until it reaches a critical size, which occurs when the stress intensity factor of the crack exceeds the fracture toughness of the material, producing rapid propagation and typically complete fracture of the structure.</p>
+
 <p>Multiaxial fatigue is a general term that may be used to describe loading and/or loading plus geometry conditions resulting in complex states of stresses and strains, either locally or globally. More specifically, multiaxial loading will result in a state of stress and/or strain, which manifests as two or more components in the stress or strain tensor. An example of a stress tensor resulting at the surface of a component experiencing externally applied normal force, coupled with an externally applied toque.</p>
 
-<p>In order to describe the multiaxial high cycle fatigue behavior of materials, one was proposed the modified Sines method (Sines++) [1].</p>
+<p>Multiaxial loads are common for many components and structures. Even under uniaxial loads multiaxial stresses often exist, for example due to geometric constraints at notches. Such multiaxial loads and stress states are frequently encountered in many industries, including automotive, aerospace, and power generation, among others. In order to describe the multiaxial high cycle fatigue behavior of materials, one was proposed the modified Sines method (Sines++) [1].</p>
 <p align="center">
   <img src="https://github.com/yanicen1/multiaxial-fatigue-modified-model-Sines-/blob/master/Fig.1.png" width="700" title="hover text">
 </p>
