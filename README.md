@@ -9,7 +9,7 @@
   <img src="https://github.com/yanicen1/multiaxial-fatigue-modified-model-Sines-/blob/master/Fig.1.png" width="700" title="hover text">
 </p>
 <p>where <i>I<sub>2a</sub></i> and <i>I<sub>2m</sub></i> are the amplitude and the mean value of the second invariant of the stress deviator tensor, <i>I<sub>1m</sub></i> and <i>I<sub>1a</sub></i> are the amplitude and the mean value of the first invariant of the stress tensor.</p>
-<p>The the model parameters A, B, С and D were determined as follows:</p>
+<p>The model parameters A, B, С and D were determined as follows:</p>
 <p align="center">
   <img src="https://github.com/yanicen1/multiaxial-fatigue-modified-model-Sines-/blob/master/Fig.2.png" width="860" title="hover text">
 </p>
@@ -21,7 +21,7 @@
 <p>2. Store parameters of fatigue paths in the file 'fatigue_tests.csv'.</p>
 <p>3. Run the program.</p>
 <h4>Output:</h4>
-<p>4. Number and percentage of values of predicted fatigue life that are out of the ±2 and 3-factor error range.</p>
+<p>4. Number and percentage of values of predicted fatigue life that are out of the ±2 and ±3-factor error range.</p>
 <p>5. Standard error:</p>
 <p>
   <img src="https://github.com/yanicen1/multiaxial-fatigue-modified-model-Sines-/blob/master/Fig.3.png" width="190" title="hover text">
