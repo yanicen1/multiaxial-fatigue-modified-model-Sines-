@@ -27,7 +27,7 @@
   <img src="https://github.com/yanicen1/multiaxial-fatigue-modified-model-Sines-/blob/master/Fig.3.png" width="190" title="hover text">
 </p>
 <p>where <i>N</i> and <i>N<sub>ex</sub></i> are predicted and experimental fatigue life, <i>n</i> is a number of tests.</p>
-<p>6. The file 'result.csv' with <i>N</i>, <i>N<sub>σ</sub></i> and <i>N<sub>τ</sub></i>for the model.</p>
+<p>6. The file 'result.csv' with a predicted number of cycles (<i>N</i>, <i>N<sub>σ</sub></i> and <i>N<sub>τ</sub></i>) for the model.</p>
 <p>7. Comparison of model prediction with experimental results (Fig. 1).</p>
 <p align = 'center'>
   <img src="https://github.com/yanicen1/multiaxial-fatigue-modified-model-Sines-/blob/master/Fig.0.png" width="500" title="hover text">
