@@ -9,7 +9,7 @@
 <p>where <i>I<sub>2a</sub></i> and <i>I<sub>2m</sub></i> are the amplitude and the mean value of the second invariant of the stress deviator tensor, <i>I<sub>1m</sub></i> and <i>I<sub>1a</sub></i> are the amplitude and the mean value of the first invariant of the stress tensor.</p>
 <p>The the model parameters A, B, С and D were determined as follows:</p>
 <p align="center">
-  <img src="https://github.com/yanicen1/multiaxial-fatigue-modified-model-Sines-/blob/master/Fig.2.png" width="900" title="hover text">
+  <img src="https://github.com/yanicen1/multiaxial-fatigue-modified-model-Sines-/blob/master/Fig.2.png" width="860" title="hover text">
 </p>
 <p>where <i>N<sub>σ</sub></i> and <i>N<sub>τ</sub></i> are values of the predicted fatigue life (normal and shear axis), <i>σ<sub>u</sub></i> is the ultimate tensile strength, <i>τ<sub>u</sub></i> is the shear strength, <i>τ'<sub>f</sub></i> is the shear fatigue strength coefficient, <i>b<sub>0</sub></i> is the shear fatigue strength exponent, <i>σ'<sub>f</sub></i> is the fatigue strength coefficient, <i>b</i> is the fatigue strength exponent, <i>υ<sub>σ</sub></i> and <i>υ<sub>τ</sub></i> are load frequencies for normal and shear axis.</p>
 <p>The purpose is to find <i>N</i>, <i>N<sub>σ</sub></i> and <i>N<sub>τ</sub></i> for the model Sines++.</p>
@@ -21,12 +21,15 @@
 <h4>Output:</h4>
 <p>4. Number and percentage of values of predicted fatigue life that are out of the ±2 and 3-factor error range.</p>
 <p>5. Standard error:</p>
-<p align="center">
-  <img src="https://github.com/yanicen1/multiaxial-fatigue-modified-model-Sines-/blob/master/Fig.3.png" width="400" title="hover text">
+<p>
+  <img src="https://github.com/yanicen1/multiaxial-fatigue-modified-model-Sines-/blob/master/Fig.3.png" width="190" title="hover text">
 </p>
-
-  (Fig. 2).</p>
-
+<p>where <i>N</i> and <i>N<sub>ex</sub></i> are predicted and experimental fatigue life, <i>n</i> is a number of tests.</p>
+<p>6. Comparison of model prediction with experimental results (Fig. 1).</p>
+<p align = 'center'>
+  <img src="https://github.com/yanicen1/multiaxial-fatigue-modified-model-Sines-/blob/master/Fig.0.png" width="500" title="hover text">
+</p>
+<p align = 'center'>Figure 1. Comparison of model prediction with experimental results.</p>
 
 <p>[1] A.S. Iankin et alii. Influence of static mean stresses on the fatigue behavior of 2024 aluminum alloy under multiaxial loading // Frattura ed Integrità Strutturale, 51 (2020) 151-163; https://doi.org/10.3221/IGF-ESIS.51.12</p>
 <br>
