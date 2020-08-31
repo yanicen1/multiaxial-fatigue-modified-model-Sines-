@@ -34,11 +34,7 @@
 </p>
 <p align = 'center'>Figure 1. Comparison of model prediction with experimental results.</p>
 <br>
-<p>The list of libraries you need:</p>
-<p>- Pandas</p>
-<p>- NumPy</p>
-<p>- Matplotlib</p>
-<p>- Seaborn</p>
+<p>All used libraries were saved in files 'requirements.txt' and 'environment.yaml' for conda.</p>
 <br>
 <p>[1] A.S. Iankin et alii. Influence of static mean stresses on the fatigue behavior of 2024 aluminum alloy under multiaxial loading // Frattura ed Integrità Strutturale, 51 (2020) 151-163; https://doi.org/10.3221/IGF-ESIS.51.12</p>
 <br>
