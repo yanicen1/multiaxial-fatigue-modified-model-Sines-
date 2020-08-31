@@ -15,7 +15,7 @@
 </p>
 <p>where <i>N<sub>σ</sub></i> and <i>N<sub>τ</sub></i> are values of the predicted fatigue life (normal and shear axis), <i>σ<sub>u</sub></i> is the ultimate tensile strength, <i>τ<sub>u</sub></i> is the shear strength, <i>τ'<sub>f</sub></i> is the shear fatigue strength coefficient, <i>b<sub>0</sub></i> is the shear fatigue strength exponent, <i>σ'<sub>f</sub></i> is the fatigue strength coefficient, <i>b</i> is the fatigue strength exponent, <i>υ<sub>σ</sub></i> and <i>υ<sub>τ</sub></i> are load frequencies for normal and shear axis.</p>
 <p>The purpose is to find <i>N</i>, <i>N<sub>σ</sub></i> and <i>N<sub>τ</sub></i> for the model Sines++.</p>
-
+<br>
 <h4>Input:</h4>
 <p>1. Store values of mechanical properties of used material in the file 'mechanical_properties.csv'.</p>
 <p>2. Store parameters of fatigue paths in the file 'fatigue_tests.csv'.</p>
@@ -33,6 +33,12 @@
   <img src="https://github.com/yanicen1/multiaxial-fatigue-modified-model-Sines-/blob/master/Fig.0.png" width="500" title="hover text">
 </p>
 <p align = 'center'>Figure 1. Comparison of model prediction with experimental results.</p>
+<br>
+<p>The list of libraries you need:</p>
+<p>- Pandas</p>
+<p>- NumPy</p>
+<p>- Matplotlib</p>
+<p>- Seaborn</p>
 <br>
 <p>[1] A.S. Iankin et alii. Influence of static mean stresses on the fatigue behavior of 2024 aluminum alloy under multiaxial loading // Frattura ed Integrità Strutturale, 51 (2020) 151-163; https://doi.org/10.3221/IGF-ESIS.51.12</p>
 <br>
