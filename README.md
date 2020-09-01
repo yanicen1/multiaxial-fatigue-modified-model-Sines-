@@ -35,8 +35,8 @@
 <p align = 'center'>Figure 1. Comparison of model prediction with experimental results.</p>
 <br>
 <p>All used libraries were saved in files 'requirements.txt' and 'environment.yaml' for conda.</p>
+
+[1] A.S. Iankin et alii. [Influence of static mean stresses on the fatigue behavior of 2024 aluminum alloy under multiaxial loading](https://doi.org/10.3221/IGF-ESIS.51.12) // Frattura ed Integrità Strutturale, 51 (2020) 151-163
 <br>
-<p>[1] A.S. Iankin et alii. Influence of static mean stresses on the fatigue behavior of 2024 aluminum alloy under multiaxial loading // Frattura ed Integrità Strutturale, 51 (2020) 151-163; https://doi.org/10.3221/IGF-ESIS.51.12</p>
-<br>
-<p>If you have questions, please feel free to contact me: 
-Andrei Iankin, yas.cem.yanicen@gmail.com</p>
+If you have questions, please feel free to contact me: 
+Andrei Iankin, yas.cem.yanicen@gmail.com
