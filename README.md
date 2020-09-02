@@ -11,7 +11,7 @@
 <p>where <i>I<sub>2a</sub></i> and <i>I<sub>2m</sub></i> are the amplitude and the mean value of the second invariant of the stress deviator tensor, <i>I<sub>1m</sub></i> and <i>I<sub>1a</sub></i> are the amplitude and the mean value of the first invariant of the stress tensor.</p>
 <p>The model parameters A, B, С and D were determined as follows:</p>
 <p align="center">
-  <img src="https://github.com/yanicen1/multiaxial-fatigue-modified-model-Sines-/blob/master/Fig.2.png" width="860" title="hover text">
+  <img src="https://github.com/yanicen1/multiaxial-fatigue-modified-model-Sines-/blob/master/Fig.2.png" width="700" title="hover text">
 </p>
 <p>where <i>N<sub>σ</sub></i> and <i>N<sub>τ</sub></i> are values of the predicted fatigue life (normal and shear axis), <i>σ<sub>u</sub></i> is the ultimate tensile strength, <i>τ<sub>u</sub></i> is the shear strength, <i>τ'<sub>f</sub></i> is the shear fatigue strength coefficient, <i>b<sub>0</sub></i> is the shear fatigue strength exponent, <i>σ'<sub>f</sub></i> is the fatigue strength coefficient, <i>b</i> is the fatigue strength exponent, <i>υ<sub>σ</sub></i> and <i>υ<sub>τ</sub></i> are load frequencies for normal and shear axis.</p>
 <p>The purpose is to find <i>N</i>, <i>N<sub>σ</sub></i> and <i>N<sub>τ</sub></i> for the model Sines++.</p>
