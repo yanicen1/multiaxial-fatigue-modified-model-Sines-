@@ -30,7 +30,7 @@
 <p>6. The file 'result.csv' with a predicted number of cycles (<i>N</i>, <i>N<sub>σ</sub></i> and <i>N<sub>τ</sub></i>) for the model.</p>
 <p>7. Comparison of model prediction with experimental results (Fig. 1).</p>
 <p align = 'center'>
-  <img src="https://github.com/yanicen1/multiaxial-fatigue-modified-model-Sines-/blob/master/Fig.0.png" width="500" title="hover text">
+  <img src="https://github.com/yanicen1/multiaxial-fatigue-modified-model-Sines-/blob/master/Fig. 0.png" width="550" title="hover text">
 </p>
 <p align = 'center'>Figure 1. Comparison of model prediction with experimental results.</p>
 <br>
