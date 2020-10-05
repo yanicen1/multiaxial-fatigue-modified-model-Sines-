@@ -100,17 +100,20 @@ print('Standard error:', AE.__round__(3), '/ a factor of ±', (10**(1+AE)/10).__
 # Data visualization
 pd.plotting.register_matplotlib_converters()
 import matplotlib.pyplot as plt
-import seaborn as sb
+import seaborn as sns
 
-f, ax = plt.subplots(figsize=(5, 5))
+sns.set(font_scale=1.3)
+sns.set_style("ticks")
+f, ax = plt.subplots(figsize=(6, 6))
 ax.set(xscale="log", yscale="log")
 plt.plot([1, 100000000], [1, 100000000], 'k-', lw=1)
 plt.plot([2, 200000000], [1, 100000000], 'k--', [3, 300000000], [1, 100000000], 'k-.', lw=1)
 plt.plot([0.5, 50000000], [1, 100000000], 'k--', label='Factor of ±2', lw=1)
 plt.plot([1/3, 100000000/3], [1, 100000000], 'k-.', label='Factor of ±3', lw=1)
-sb.scatterplot(x=FT['Ns_cycles'], y=FT['Ns_pr_cycles'])
-plt.ylim(0.5*min(min(FT['Ns_pr_cycles']), min(FT['Ns_cycles'])), 2*max(max(FT['Ns_pr_cycles']), max(FT['Ns_cycles'])))
-plt.xlim(0.5*min(min(FT['Ns_pr_cycles']), min(FT['Ns_cycles'])), 2*max(max(FT['Ns_pr_cycles']), max(FT['Ns_cycles'])))
+sns.scatterplot(x=FT['Ns_cycles'], y=FT['Ns_pr_cycles'], hue=np.array(FT['Loading_path']), s=70)
+plt.ylim(0.8*min(min(FT['Ns_pr_cycles']), min(FT['Ns_cycles'])), 1.25*max(max(FT['Ns_pr_cycles']), max(FT['Ns_cycles'])))
+plt.xlim(0.8*min(min(FT['Ns_pr_cycles']), min(FT['Ns_cycles'])), 1.25*max(max(FT['Ns_pr_cycles']), max(FT['Ns_cycles'])))
 plt.xlabel("Experimental fatigue life, $N_{ex}$ (cycles)")
 plt.ylabel("Predicted fatigue life $N_{pr}$, (cycles)")
+plt.legend(bbox_to_anchor=(1, 1), loc='upper left')
 plt.show()
