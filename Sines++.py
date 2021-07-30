@@ -34,8 +34,8 @@ N0 = ((1/t_f)**(1/b0)*SR_I2a**(1/b0))/2
 Si = ((SR_I2a/(t_f*(2*N0)**b0))**2 + (SR_I2m/t_u)**2)**0.5 + (1/s_u - 1/((3)**0.5*t_u))*I1m + \
      (1/(s_f*(2*N0)**b) - 1/((3)**0.5*(t_f*(2*N0)**b0)))*I1a
 
-for i in range(len(FT)):
-    while Si[i] > 1.00001:
+for i in list(FT.index):
+    while Si[i] > 1.00001 or Si[i] < 0.99999:
         N0[i] = N0[i] / Si[i]
         Si[i] = ((SR_I2a[i]/(t_f*(2*N0[i])**b0))**2 + (SR_I2m[i]/t_u)**2)**0.5 + (1/s_u - 1/((3)**0.5*t_u))*I1m[i] + \
              (1/(s_f*(2*N0[i])**b) - 1/((3)**0.5*(t_f*(2*N0[i])**b0)))*I1a[i]
@@ -43,9 +43,9 @@ for i in range(len(FT)):
 # Neq_pr is the predicted equivalent fatigue life.
 Neq_pr = N0
 
-Neq_s_pr = [0 for n in range(len(FT))]
-Neq_t_pr = [0 for n in range(len(FT))]
-for j in range(len(FT)):
+Neq_s_pr = [0 for n in list(FT.index)]
+Neq_t_pr = [0 for n in list(FT.index)]
+for j in list(FT.index):
     if FT['nu_t_Hz'][j] != FT['nu_s_Hz'][j] and FT['nu_t_Hz'][j] != 0 and FT['nu_s_Hz'][j] != 0:
         Neq_t_pr[j] = Neq_pr[j] / ((FT['nu_s_Hz'][j] / FT['nu_t_Hz'][j]) ** 0.5)
         Neq_s_pr[j] = FT['nu_s_Hz'][j] / FT['nu_t_Hz'][j] * Neq_t_pr[j]
@@ -61,10 +61,10 @@ Npr = pd.DataFrame({"Neq_pr_cycles": Neq_pr, "Nt_pr_cycles": Nt_pr, "Ns_pr_cycle
 FT = pd.concat([FT, Npr], axis=1)
 
 # Number of values of predicted fatigue life that are out of 2- and 3-factor error.
-F_E = [0 for n in range(len(FT))]
-F_E_1 = [0 for n in range(len(FT))]
-F_E_2 = [0 for n in range(len(FT))]
-for j in range(len(FT)):
+F_E = [0 for n in list(FT.index)]
+F_E_1 = [0 for n in list(FT.index)]
+F_E_2 = [0 for n in list(FT.index)]
+for j in list(FT.index):
     if FT['Ns_pr_cycles'][j] < FT['Ns_cycles'][j]/2 and FT['Ns_pr_cycles'][j] > FT['Ns_cycles'][j]/3 or \
             FT['Ns_pr_cycles'][j] > 2*FT['Ns_cycles'][j] and FT['Ns_pr_cycles'][j] < 3*FT['Ns_cycles'][j]:
         F_E[j] = 'out of the 2-factor error'
